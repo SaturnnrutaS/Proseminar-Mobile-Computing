@@ -1,5 +1,9 @@
 ## Spezielle Ausnahmen
 *zeit.xlsx
+*.sty
+*.cls
+*.dem
+*.bst
 
 ## Latex Styling
 *.sty

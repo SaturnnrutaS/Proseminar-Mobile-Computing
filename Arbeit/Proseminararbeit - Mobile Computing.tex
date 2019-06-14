@@ -3,14 +3,20 @@
 % for Lecture Notes in Computer Science, version 2.4
 \documentclass{llncs}
 \usepackage{llncsdoc}
+\usepackage[utf8]{inputenc}			% Umlaute, Sonderzeichen
+\usepackage[ngerman]{babel}			% deutsche Sprache
+\usepackage{enumitem}				% Listen
+\usepackage{graphicx}				% Grafiken
+\usepackage{hyperref}				% Hyperlinks
+\usepackage[nonumberlist]{glossaries}		% Glossar
+\usepackage{amsmath}
 %
 \begin{document}
-\markboth{\LaTeXe{} Attention Guidancen with Haptic Interfaces in Monitoring Tasks
-Science}{Attention Guidancen with Haptic Interfaces in Monitoring Tasks}
+\markboth{Attention Guidancen with Haptic Interfaces in Monitoring Tasks}{Attention Guidancen with Haptic Interfaces in Monitoring Tasks}
 \thispagestyle{empty}
 
 \begin{flushleft}
-\LARGE\bfseries Attention Guidancen with Haptic Interfaces in Monitoring Tasks\\
+\LARGE\bfseries Mobile Computing\\
 \end{flushleft}
 
 \rule{\textwidth}{1pt}
@@ -35,5 +41,26 @@ Monitoring Tasks\\
 
 \newpage
 \section{Einleitung}
+\section{Die Teilgebiete}
+\subsection{Aufmerksamkeitssteuerung}
+\subsection{Haptische Schnittstellen}
+\subsection{Überwachungsaufgaben}
+
+\section{Wiederherstellung und Ersetzen von Fähigkeiten}
+\subsection{Sehvermögen}
+\subsection{Hörvermögen}
+\subsection{Sprachvermögen}
+\section{Nutzung zur Leistungssteigernd}
+\subsection{Erlernen von motorsichen Fägikeiten}
+\subsection{Erhöhung der Reaktionsgeschwindigkeit}
+\section{Erweiterung des Wahrnehmungsspektrums}
+\subsection{Navigationssysteme}
+\subsection{Nähewahrnehmung}
+
+\clearpage
+\section{Glossar}\label{glossar}
+
+\renewcommand*{\glossarysection}[2][]{}	% prevents double glossary section heading
+\printnoidxglossaries				% generate pdf twice when adding new entries
 
 \end{document}

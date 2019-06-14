@@ -5,6 +5,8 @@
 *.dem
 *.bst
 
+Fragen.xlsx
+
 ## Latex Styling
 *.sty
 

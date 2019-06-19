@@ -1,0 +1,71 @@
+% Auf der Basis von dem Springer llncs Style
+\documentclass{llncs}					% Springer Style
+\usepackage{llncsdoc}					% Springer Dokument
+\usepackage[utf8]{inputenc}				% Umlaute, Sonderzeichen
+\usepackage[ngerman]{babel}				% deutsche Sprache
+\usepackage{enumitem}					% Listen
+\usepackage{graphicx}					% Grafiken
+\usepackage{hyperref}					% Hyperlinks
+\usepackage[nonumberlist]{glossaries}	% Glossar
+\usepackage{amsmath}					% Mathematik
+
+\bibliographystyle{unsrt}
+
+\makenoidxglossaries
+
+\newglossaryentry{1}{
+	name=A Haptic Back Display for Attentional and Directional Cueing,
+	description={Der Raspberry Pi ist ein Einplatinencomputer. In diesem Projekt dient der Raspberry Pi als Hardwareplattform, um Messwerte aus angeschlossenen Sensoren auszulesen}
+}
+
+\title{Aufmerksamkeitssteuerung durch Haptische Schnittstellen in Überwachungstätigkeiten}
+\author{Leon Huck}
+\institute{Karlsruher Institut für Technology}
+\date{17.06.2019}
+
+\begin{document}
+	
+%Titel der Arbeit
+\maketitle
+
+%Abstrakt der Arbeit
+\begin{abstract}
+	ToDo
+\end{abstract}
+
+%Inhaltsverzeichnis
+%ToDo: Überdenken, ob nicht entfernen
+\newpage
+\tableofcontents
+\newpage
+
+\newpage
+\section{Einleitung}
+
+\section{Die Teilgebiete}
+\subsection{Aufmerksamkeitssteuerung}
+\subsection{Haptische Schnittstellen}
+\subsection{Überwachungsaufgaben}
+
+\section{Sinneswiederherstellende Anwendungen}
+
+\section{Kommunikations Anwendungen}
+
+\section{Leistungssteigernde Anwendungen}
+
+\section{Wahrnehmungsspektrum Erweiternde Anwendungen}
+
+\section{Zuverlässigkeit Erzeugende Anwendungen}
+
+\section{Zusammenfassung und Ausblick}
+
+\clearpage
+\section{Glossar}\label{glossar}
+
+\renewcommand*{\glossarysection}[2][]{}	% prevents double glossary section heading
+\printnoidxglossaries				% generate pdf twice when adding new entries
+
+\clearpage
+\bibliography{Literaturreferenzen}
+
+\end{document}

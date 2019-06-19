@@ -1,11 +1,9 @@
-## Spezielle Ausnahmen
-*zeit.xlsx
-*.sty
-*.cls
-*.dem
-*.bst
-
+##Spezielle Dateien
 Fragen.xlsx
+*zeit.xlsx
+
+##Verzeichnise
+Wissenschaftliche Arbeiten/
 
 ## Latex Styling
 *.sty

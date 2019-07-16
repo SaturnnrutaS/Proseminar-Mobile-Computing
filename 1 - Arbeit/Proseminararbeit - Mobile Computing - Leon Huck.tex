@@ -18,6 +18,12 @@
 	description={Bauelement, welches elektrische Signale in andere physikalische Größen, wie beispielsweise Bewegung, umsetzt.}
 }
 
+\newglossaryentry{TrackingAufgabe}{
+	name=Tracking Aufgabe,
+	plural=Tracking Aufgaben,
+	description={Aufgabe, bei der über einen gewissen Zeitraum ein Parameter durchgehend angepasst werden muss.\newline Bsp. Mauszeiger, der innerhalb eines sich verändernden Bereiches des Computer-Monitors gehalten werden muss.}
+}
+
 \title{Aufmerksamkeitssteuerung durch Haptische Schnittstellen in Überwachungstätigkeiten}
 \author{Leon Huck\thanks{Unter der Betreuung von: Erik Pescara}}
 \institute{Karlsruher Institut für Technologie}
@@ -45,9 +51,8 @@
 \newpage
 
 %Hinführung zu der Arbeit
-\newpage
+\clearpage
 \section{Einleitung}
-
 
 Seit der Einführung von Geräten, wie etwa Handies, sind Aufmerksamkeitshinweise durch Vibrationen im Alltag angekommen.
 Doch bieten Vibrationen auch außerhalb von einem einfachen Alarmsystem eine Vielzahl an Möglichkeiten zur Informationsübermittlung (vgl. \cite{10.2307/1705360}). In dieser Arbeit soll ein Teilbereich der Haptischen Schnittstellen herausgenommen und der Fortschritt in diesem Feld beschrieben werden.
@@ -55,6 +60,7 @@ Doch bieten Vibrationen auch außerhalb von einem einfachen Alarmsystem eine Vie
 Um dieses Ziel zu erreichen werden die Definitionen Aufmerksamkeitssteuerung und Überwachungsaufgaben eingeführt um anschließend deren Schnittmenge zu betrachten. Dabei werden die Teilbereiche anhand von konkreten Anwendungen erarbeitet und die allgemeinen Erkenntnisse herausgezogen.
 Dadurch soll der Stand der Wissenschaft festgehalten und noch vorhandene Wissenslücken zum Vorschein gebracht werden.
 
+\clearpage
 %Beschreibung der Teilgebiete, die im späteren Verlauf zusammengeführt werden
 \section{Die Thematischen Teilgebiete}
 Diese Arbeit erkundet die Schnittmenge der drei Teilgebiete Aufmerksamkeitssteuerung, haptische Schnittstellen und Beobachtungsaufgaben. Jedes dieser Teilgebiete enthält viele Informationen, die den Rahmen dieser Arbeit sprengen würde. Was nicht in dieser Arbeit zu finden ist sind die Schnittmengen von nur zwei dieser Gebiete. Es wird keine Aufmerksamkeitssteuerung in einer Beobachtungsaufgabe behandelt, die nicht durch eine haptische Schnittstelle erreicht wird. Im Folgenden soll eine Einführung und Abgrenzung der Teilgebiete erfolgen.
@@ -89,10 +95,10 @@ Für beiden \glspl{Aktuator}-Typen vergleichbar sind folgende Charakteristiken:
 \begin{itemize}
 	\item Position auf der Haut
 	
-	%Die Haut reagiert nicht an jeder Stelle gleich empfindlich auf haptische Stimulation\cite[S.~91]{doi:10.1518/001872008X250638}.
-	%Die empfindlichsten Stellen liegen in den Fingerspitzen.
+	Die Haut reagiert nicht an jeder Stelle gleich empfindlich auf haptische Stimulation\cite[S.~91]{doi:10.1518/001872008X250638}.
+	Die empfindlichsten Stellen liegen in den Fingerspitzen.
 	\item Berührungsfläche
-	
+	Die Größe der Fläche, die eingenommen wird
 	\item Dauer
 	%Die Länge der Aktivierung des \gls{Aktuator} beeinflusst 
 \end{itemize}
@@ -100,6 +106,7 @@ Für beiden \glspl{Aktuator}-Typen vergleichbar sind folgende Charakteristiken:
 Für die Kommunikation über Vibrationen\cite{doi:10.1518/001872008X250638}:
 \begin{itemize}
 	\item Frequenz
+	
 	\item Amplitude/Intensität %Hier sollte ich mich wahrscheinlich auf eines festlegen
 	\item Dauer
 %Hier könnte vielleicht ein extra Punkt draus gemacht werden. Alternativ kann ich es als Fazit der Kombination der einzelnen Punkte anführen.
@@ -156,18 +163,45 @@ Der Unterschied zu der Darstellung von Buchstaben ist, dass die Tactons selbst e
 
 \subsection{Leistungssteigerung}
 
+Auf der Basis von\cite{rupert2000instrumentation},\cite{calhoun2002utilty}
+Am wichtigsten ist \cite{lieberman2007development}
 
 \subsection{Erweiterung des Wahrnehmungsspektrums}
 
 
 \subsection{Zuverlässigkeit Erzeugung}
+Haptische Aktuatoren bieten die Möglichkeit Informationen redundant dazustellen. So können Informationen, die von einem Display abgelesen werden, zusätzlich haptisch unterstützt werden. Dies ist ein Vorgehen, dass bei Piloten zu dem Einsatz kommt.
+Anius H. Rupert\cite{rupert2000instrumentation} beschreibt in seiner Arbeit das Problem der räumliche Desorientierung bei Piloten, die keinen Horizont als Referenz zur Verfügung haben. Dies führt zu einem Verlust der Orientierung und somit zu einem Kontrollverlust über das Flugzeug. Eine Lösung Stellt das "Tactical Situation Awareness System (TSAS)"\cite{rupert2000instrumentation} da. Dabei wird der visuelle Horizont durch haptisches Feedback simuliert\cite{rupert2000instrumentation}. Im Falle einer visuellen Einschränkung ist der Pilot somit nicht mehr ausschließlich auf seine Augen beschränkt.
+Aus diesem Beispiel der Anwendung von Redundanz zu der Erhöhung der Zuverlässigkeit in Beobachtungsaufgaben lassen sich einige allgemeine Schlüsse ziehen:
 
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width = 10cm]{Grafiken/Sinne-Redundanz-Verhaeltnis.png}
+		\caption{Ein naiver Ansatz für die Beschreibung der Zusammenhänge von der Anzahl der angesprochenen Sinnen im Verhältnis zu der Zuverlässigkeit.}
+		\label{Sinne_Redundanz_Verhaeltnis}
+	\end{center}
+\end{figure}
+
+
+%Fokusschreiben
+Es lässt sich für jedes Monitoring Problem festhalten, dass eine Konkurrenz um die Aufmerksamkeit stattfindet. Dabei ist es jedoch nicht so, dass die Aufmerksamkeit eine limitierte Ressource ist. Vielmehr tritt sie bei der richtigen Stimulation hervor. So kann bsp. eine visuelle Darstellung alleine nicht interessant genug sein, um die Aufmerksamkeit zu fesseln, aber in Kombination mit einer auditoren oder haptischen Stimulation schon. Auf der Anderen Seite des Spektrums bewegt sich die Überreizung. In ihr gehen Nouancen durch zu viele Informationen verloren.
+Es muss also zuerst festgestellt werden, ob das Problem ein Mangel an Information, die interessant sind, ist, oder ob eine Reizüüberflutung stattfindet. Bei dem Pilotenbeisbiel ist es eine Reizüüberflutung. Der Pilot muss viele Informationen buchstäblich im Blick behalten. Dadurch kann die Anzeige überfüllt und schwer zu differenzieren sein. Eine weitere haptische Stimulation ermöglicht es daher die Information entweder zu unterstreichen, oder erst dazustellen. Das Isolierte Darstellen spart Platz auf dem Display. Jedoch stellt es einen Singel Point of Failure da. Wenn also die Information entweder übersehen wird, oder ein Äußerer Zustand als diese Information eingeschätzt wird, so kann es schnell zu Problemen führen. Eine Erhöhung der Redundanz kann, wenn es übertrieben wird ablenkend sein. Zum Beispiel, wenn ein Pilot durch die Vibration so stark erschrocken wird, dass er für mehrere Sekunden andere, potentiell wichtigere Informationen übersieht. Deshalb halte ich eine Limitierung auf zwei Faktoren für die Selbe Information im Pilotenbeispiel für sinnvoll. Acuh ist zu berücksichtigen, dass die Einflussfaktoren, die man zur Verfügung hat nicht für alle Aufgaben gleich gut geeignet sind. Die Amplitude zu Änder beispielsweise isit schwer zu erkenn. Leichter ist es die Dauer bzw. Lokation zu differenzieren.
 \newpage
 \section{Zusammenfassung und Ausblick}
 
 %Zusätzliche Informationen und Formalitäten
 \newpage
 \section{Anhang}
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width = 10cm]{Grafiken/Sinne-Redundanz-Verhaeltnis.png}
+		\caption{Ein naiver Ansatz für die Beschreibung der Zusammenhänge von der Anzahl der angesprochenen Sinnen im Verhältnis zu der Zuverlässigkeit.}
+		\label{Sinne_Redundanz_Verhaeltnis}
+	\end{center}
+\end{figure}
+
+
 
 \clearpage
 \subsection{Glossar}\label{glossar}

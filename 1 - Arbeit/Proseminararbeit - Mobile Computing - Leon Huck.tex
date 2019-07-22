@@ -87,17 +87,16 @@ Um eine Diskussion über die möglichen Anwendungen von haptischen Schnittstelle
 
 Die menschliche Arbeitskraft ist begrenzt. Das gilt insbesondere für die kognitiven Fähigkeiten eines Menschen. Jede Aktion die ausgeführt oder durchdacht werden soll verbraucht Energie und Zeit. Bereits vermeidlich einfache Aktionen benötigen diese beiden Ressourcen. Deshalb muss es einen Mechanismus beziehungsweise ein Handlungsvorschrift geben, nach der die Ressourcen auf die unterschiedlichen Aufgaben verteilt werde. Diese Vorschrift heißt Aufmerksamkeit.
  Daniel Kahneman \cite{kahneman1973attention} beschreibt unterschiedliche Eigenschaften der Aufmerksamkeit.
- \begin{itemize}
- 	\item Selektierungs-Eigenschaft der Aufmerksamkeit
- 	Alle Organismen, und somit auch Menschen, müssen unterscheiden, welche Stimulationen wichtig und welche unwichtig sind. Werden zwei Berührungen gleichzeitig wahrgenommen muss entschieden werden, welche Information Priorität hat. Geschiet dies nicht können unerwünschte Konsequenzen folgen. So muss in kürze entschieden werde, ob eine juckende Stelle nur ein unbedeutendes Haar oder ein giftiges Insekt ist. 
+ 
+ 	\paragraph{Selektierungs-Eigenschaft der Aufmerksamkeit}
+ 	Alle Organismen, und somit auch Menschen, müssen unterscheiden, welche Stimulationen wichtig und welche unwichtig sind. Werden zwei Berührungen gleichzeitig wahrgenommen muss entschieden werden, welche Information Priorität hat. Geschiet dies nicht können unerwünschte Konsequenzen folgen. So muss in kürze entschieden werde, ob eine juckende Stelle nur ein unbedeutendes Haar oder ein giftiges Insekt ist. Diese Unterscheidungen benötigen ebenfalls Aufmerksamkeit.
  	
- 	\item Intensitäts-Eigenschaft der Aufmerksamkeit
- 	
+ 	\paragraph{Intensitäts-Eigenschaft der Aufmerksamkeit} 	
  	Die Aufmerksamkeit ist nicht entweder vorhanden oder nicht vorhandenen. Sie bewegt sich auf einem Spektrum.
  	Kahneman\cite{kahneman1973attention} führt hierfür das Beispiel eines Schülers an, der dem Unterricht folgt. Es gibt für dem Schüler nicht die Möglichkeit seine vollständige Aufmerksamkeit auf den Unterricht zu lenken. Täte er dies hätte er keine Möglichkeiten mehr auf Änderungen in seiner Umgebung zu reagieren. Auch könnte er nicht entscheiden, wann es sinnvoll wäre, eine andere Aufgabe zu beginnen. Gleichzeitig kann er nicht dem Unterricht vollständig ignorant begegnen. Wenn er dies könnte müsste er gleichzeitig in der Lage sein seine Umgebung auszublenden. Dies wäre vergleichbar mit einem Ohnmachtsänlichen Zustand.
  	Somit ist bei der Aufmerksamkeitssteuerung die Menge an Aufmerksamkeit, die einer Aufgabe zugeschrieben werden soll zu berücksichtigen. Wird einer Aufgabe zu viel Aufmerksamkeit zugeordnet, fehlen eventuell die Ressourcen bei einer dringlicheren Aufgabe. Wird einer Aufgabe zu wenig Aufmerksamkeit zugeordnet, kann diese eventuell nicht oder nur zu langsam erfüllt werde.
  	
- \end{itemize}
+
 Die Aufmerksamkeit wird in dieser Arbeit als menschliche Ressource aufgefasst, deren Verteilung es zu steuern gilt. Somit werden beispielsweise die Bereiche ''Aspekte der Intensität''\cite{kahneman1973attention} und ''Erregung''\cite{kahneman1973attention} ignoriert.
 
 Eine Steuerung wird immer dann erreicht, wenn ein Stimulus verwendet wird, der die Aufmerksamkeit, eines Menschen, zu der gewünschten Information leitet. Diese Aufmerksamkeitssteuerung kann über jeden Sinn erfolgen. Beispiele wären das Ansprechen eines Menschen mit dem Namen und das Einblenden eines Warnsymbols im Auto. Vorweggreifend soll hier auch eine Anwendung, wie die Handyvibration nicht unerwähnt bleiben.
@@ -116,6 +115,15 @@ Als allgemeine Ziele von allen Geräten, die Überwachungsaufgaben unterstützen
 \end{itemize}
 
 \subsection{Haptische Schnittstellen}
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width = 6cm]{Grafiken/14-Mensch-Maschine.png}
+		\caption{Grundlegende Kommunikation zwischen Mensch und Maschine.\cite{Tan:2005:TDS:1198555.1198611}}
+		\label{14-Mensch-Maschine}
+	\end{center}
+\end{figure}
+
 Der Mensch verfügt über einen Tastsinn. Um Informationen über diesen Sinn übertragen zu können, werden haptische Schnittstellen verwendet. 
 
  %Abschnitt über die Haut
@@ -124,34 +132,57 @@ Die für den Tastsinn verantwortlichen Nervenzellen können auf unterschiedliche
 
 Für beiden \glspl{Aktuator}-Typen vergleichbar sind folgende Charakteristiken:
 \begin{itemize}
-	\item Position auf der Haut
+	\item Position
 	
-	Die Haut reagiert nicht an jeder Stelle gleich empfindlich auf haptische Stimulation\cite[S.~91]{doi:10.1518/001872008X250638}.
+	Die Position gibt den Ort der Stimulation durch den Aktuator an.Die Haut reagiert nicht an jeder Stelle gleich empfindlich auf haptische Stimulation\cite[S.~91]{doi:10.1518/001872008X250638}.
 	Die empfindlichsten Stellen liegen in den Fingerspitzen.
+	
 	\item Berührungsfläche
-	Die Größe der Fläche, die eingenommen wird
+	Die Berührungsfläche gibt die vom Aktuator Stimulierte Fläche an.
+	
 	\item Dauer
-	%Die Länge der Aktivierung des \gls{Aktuator} beeinflusst 
+	
+	Die Dauer gibt die zeitliche Länge der Aktivierung des Aktuators an.
 \end{itemize}
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width = 10cm]{Grafiken/3-Haptische-Aktuatoren.png}
+		\caption{Beispiele für haptische Aktuatoren\cite{6183832}. Es liegt eine Unterscheidung von dem Verwendungszweck, dem verwendeten Material und der Form des Materials vor.}
+		\label{3-Haptische-Aktuatoren}
+	\end{center}
+\end{figure}
 
 Für die Kommunikation über Vibrationen\cite{doi:10.1518/001872008X250638}:
 \begin{itemize}
 	\item Frequenz
 	
+	Die Frequenz gibt die Anzahl der Wiederholungen des Bewegungszyklus des Aktuators, über einen Zeitraum, an.
+	
 	\item Amplitude/Intensität %Hier sollte ich mich wahrscheinlich auf eines festlegen
-	\item Dauer
+	
+	Die Amplitude gibt das Ausrichtungsdelta des Aktuators an.
 %Hier könnte vielleicht ein extra Punkt draus gemacht werden. Alternativ kann ich es als Fazit der Kombination der einzelnen Punkte anführen.
 \end{itemize}
 
 Für die Kommunikation über elektrische Impulse\cite[S.~4]{68204}:
 \begin{itemize}
-	\item Strom
+	\item Stromstärke
+	
+	Die Stromstärke mit der der elektrische Impuls versetzt wird.
+	
 	\item Spannung
+	
+	Die Spannung mit der der elektrische Impuls versetzt wird.
 	\item Material
+	
+	Das Material gibt an, aus welchem Chemischen Stoff die Kontatkfläche des Aktuators aufgebaut ist.
 	\item Feuchtigkeit
+	
+	Die Feuchtigkeit gibt die Menge an vorhandenem Wasser an der Kontaktfläche an. Dabei ist die Leitfähigkeit des Wassers der Grund für diese Charakteristik.
 \end{itemize}
 
-In beiden Fällen ist auch die Kombination der einzelnen Faktoren ausschlaggebend, wie effektiv die Kommunikation stattfindet. Dabei stellt jede Ausprägung dieser Kombinationen ein Aktivierungsmuster da. Diese Aktivierungsmuster werden von Menschen nicht nur mit unterschiedlichen Informationen, sondern auch mit subjektiven Emotionen belegt\cite{5444662}.%ToDo Quelle
+In beiden Fällen ist auch die Kombination der einzelnen Faktoren ausschlaggebend, wie effektiv die Kommunikation stattfindet. Dabei stellt jede Ausprägung dieser Kombinationen ein Aktivierungsmuster da. Diese Aktivierungsmuster werden von Menschen nicht nur mit unterschiedlichen Informationen, sondern auch mit subjektiven Emotionen belegt\cite{5444662}.
 %Vielleicht nicht hier darstellen, sondern unter eine spezielle Anwendung stellen.
 
 Ein Zusammenschluss von mehreren haptischen \glspl{Aktuator} führt zu einer größeren Anzahl von Einstellungsmöglichkeiten. Diese ermöglichen das übertragen von komplexeren Informationen im Vergleich zu einem haptischen \gls{Aktuator}. Eine Alternative Einsatzmöglichkeit ist zu der Erhöhung der Redundanz bei der Informationsübertragung. Dabei senden die haptischen \glspl{Aktuator}, beispielsweise, alle das selbe Übertragungsmuster. Das zu erreichene Ziel ist hierbei dem Menschen, der haptische \gls{Aktuator} auf der Haut trägt, die Aufnahme der Information zu erleichtern. Diese Anwendung ist gerade in kritischen Situationen,wie sie etwa in militärischen Einsätzen zu finden sind, hilfreich\cite{nikolic1998multisensory}. Nikolic et al. \cite{nikolic1998multisensory} beschreibt, wie haptische Aktoren Piloten bei der Überwachung von Flugzeugdaten unterstützen kann.
@@ -165,34 +196,62 @@ Nun stellt sich die Frage in welchen Ausprägungen diese Teilgebiete zusammengef
 Menschliche Sinne können, von Geburt an oder im laufe der Zeit, nicht, oder nur eingeschränkt, funktionsfähig sein. Um diesen Leistungsverlust ausgleichen zu können bedarf es technischer Hilfsmittel. Hierbei bietet die menschliche Haut eine Möglichkeit zur Aufnahme von Informationen, die typischerweise über andere Sinne aufgenommen werden würden.
 
 \subsubsection{Sehvermögen}
-Fragen/Teilgebiete/Gliederungspunkte/Absätze:
 Nach dem Stand der Forschung ist das Auge das Leistungsstärkste Sinnesorgan, gemessen an der übertragenen Datenmenge\cite{Koch2006}. Dabei liegt die absolute Leistung ca. bei der eines Ethernet-Kabels mit 10 Mbit/s\cite{Koch2006}. Der Sehsinn kann somit bereits aus technischen gründen nicht vollständig über die Haut simuliert werden.
 Die für die Überwachung der Umwelt wichtigen Informationen lassen sich von den unwichtigen differenzieren.
+
 \subsubsection{Lesen} Geschriebene Worte sind eine Darstellung der menschlichen Sprache. Im Fall der Einschränkung des Sehvermögens ist auch die Fähigkeit zu lesen beeinträchtigt.
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width = 12cm]{Grafiken/4-Octacon-Data.png}
+		\caption{Rahmendaten des Octacons.\cite{doi:10.1518/001872008X250638}}
+		\label{4-Octacon-Data}
+	\end{center}
+\end{figure}
 
 \paragraph{Optacon} Eine Lösung für diese Einschränkung wurde von Bliss et al. 1970 in Form des "Optacon" entwickelt (Zitiert nach:\cite{doi:10.1518/001872008X250638}). Dabei werden auf einer Anzeigefläche die Buchstaben in Form von Vibrationen dargestellt. Das identifiezieren der Buchstaben übernimmt ein Scanner, der über geschrieben Worte bewegt werden kann. Mit diesem Gerät ist war es möglich zwischen 50 und 100 Worte in der Minute zu lesen \cite{doi:10.1518/001872008X250638}.
 Bliss et al. \cite{4081931} identifiert in seiner Arbeit drei Tests Charakteristiken, die einen Einblick in die Leistung eines "Direkt Übersetzers mit taktilem Ausgang" \cite{4081931} bieten.
 
 \begin{itemize}
 	\item Lesbarkeit\newline Die Lesbarkeit beschreibt, mit welcher Wahrscheinlichkeit, die gelesene Information von dem Benutzer, wie vorgesehen interpretiert wird. Für das Erreichen der Charakteristik muss es möglich sein Buchstaben zu unterscheiden. Auch ist die Erneuerungsrate, mit dem das Gerät die Buchstaben neu zeichnet, von Bedeutung. Eine zu geringe Wiederholungsrate kann zu Missverständnissen führen.
-	\item Lesegeschwindigkeit
-	\item Lesbarer Ausschnitt
+	
+	\item Lesegeschwindigkeit\newline
+	Die Lesegeschwindigkeit gibt an, wie schnell Wörter bzw. Buchstaben gelesen werden können. Diese Charakteristik hängt mit dem Trainingsstand des Anwenders zusammen.
+	
+	\item Lesbarer Ausschnitt\newline
+	In dem Lesbaren Ausschnitt können Buchstaben willkürlich erkannt werden. Je größer dieser Ausschnitt ist, desto länger kann ein Anwender lesen ohne Änderungen an einem Gerät vorzunehmen.
 \end{itemize}
 
 
 \subsection{Zwischenmenschliche Kommunikation}
 
 Die Zwischenmenschliche Kommunikation ist ein komplexer Vorgang, bei dem zumeist viele Sinne beansprucht werden. Über den Hörsinn werden die Informationen aufgenommen, die in der gesprochenen Sprache zu finden sind. Der Sehsinn wird verwendet um Lippen zu lesen und somit ein besseres Verständnis zu erzeugen. Darüber hinaus kann über ihn die emotionale Lage des Gesprächspartners eingeschätzt werden und auf Gesten, wie ein Handschlag, reagiert werden.
-Jedoch gibt es auch Umgebungen, in denen diese Kommunikationswege unterbunden werden. Der Geräuschpegel kann zu hoch sein um Sprache zu verstehen. Das Licht kann zu dunkel sein um den anderen Menschen zu sehen, mit dem Kommuniziert wird \cite{10.2307/1705360}.
+Jedoch gibt es auch Umgebungen, in denen diese Kommunikationswege unterbunden werden. Der Geräuschpegel kann zu hoch sein um Sprache zu verstehen. Die Lichtverhältnisse können zu dunkel sein um den anderen Menschen zu sehen, mit dem Kommuniziert wird \cite{10.2307/1705360}.
 
 Des weiteren können auch durch Unfälle, Alter oder Krankheiten die Augen und Ohren beeinträchtigt sein. Um die Fähigkeit der Zwischenmenschlichen Kommunikation zu erhalten sind Seh- und Hörhilfen verbreitete technische Werkzeuge. Eine weitere Alternative ist das Umverlagern der Kommunikation auf einen anderen Sinn\cite{10.2307/1705360}.
 
 Frank A. Geldard \cite{10.2307/1705360} beschreibt hierzu in seiner Arbeit die Entwicklung der Forschung, die versucht die zwischenmenschliche Kommunikation auf den Tastsinn zu verlagern. Zuerst wird beschrieben, wie die Haut dazu genutzt werden kann wie ein Ohr zu funktionieren. Dabei wird die Haut als Trommelfell verwendet. Dieser Ansatz liefert nach einer Einlernphase von 30h ein Vokabular von einigen einzelnen Worten\cite{10.2307/1705360}. Das Problem bei dieser Anwendung liegt in der Zuverlässigkeit. Bei einer Wiederkennungsrate von ca. 75% ist die Wahrscheinlichkeit, dass die gesagten Worte nicht oder falsch verstanden werden hoch\cite{10.2307/1705360}. Eine Lösung für dieses Problem kann das Abändern des Vokabulares sein. Anstelle, dass Buchstaben übertragen werden können auch Vibrationsbilder übermittelt werden\cite{10.2307/1705360}.
 
 \paragraph{Tactons} Die Idee, für die haptische Wahrnehmung spezialisierte Vibrationsmuster zu erstellen, wird von Stephen Brewster und Lorna M. Brown\cite{Brewster:2004:TST:976310.976313} behandelt. Ihr Vorschlag ist sogenannte Tactile Icons (Tactons) zu verwenden, die haptisch gut differenzierbar sind. Dabei orientieren sie sich an musik ähnlichen Mustern, die von den taktilen Aktoren dargestellt werden\cite{Brewster:2004:TST:976310.976313}.
-Der Unterschied zu der Darstellung von Buchstaben ist, dass die Tactons selbst eine Bedeutung haben und nicht in eine gesprochene Sprache übersetzt werden müssen um sie zu verstehen. Dadurch sollte eine bessere Antwortzeit bei dem Benutzer erreicht werden.
+Der Unterschied zu der Darstellung von Buchstaben ist, dass die Tactons selbst eine Bedeutung haben und nicht in eine gesprochene Sprache übersetzt werden müssen um sie zu verstehen. Dadurch sollte eine bessere Antwortzeit bei dem Benutzer erreicht werden. Wie in \ref{7-Tacton-Verwendungsbeispiel} sichtbar.
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width = 8cm]{Grafiken/7-Tacton-Verwendungsbeispiel.png}
+		\caption{Codierung von Informationen über einen Tacton\cite{Brewster:2004:TST:976310.976313}. Dabei wird eine Notation ähnlich zur Musik verwenet um Frequenz und Amplitude anzugeben.}
+		\label{7-Tacton-Verwendungsbeispiel}
+	\end{center}
+\end{figure}
 
 \subsection{Leistungssteigerung}
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width = 10cm]{Grafiken/17-Lehrnbeschleunigung-Versuchsaufbau.png}
+		\caption{Aufbau des Experiments zur Lehrnbeschleunigung durch haptische Schnittstellen\cite{lieberman2007development}.}
+		\label{17-Lehrnbeschleunigung-Versuchsaufbau}
+	\end{center}
+\end{figure}
 
 Auf der Basis von\cite{rupert2000instrumentation},\cite{calhoun2002utilty}
 Am wichtigsten ist \cite{lieberman2007development}
@@ -226,17 +285,9 @@ Es muss also zuerst festgestellt werden, ob das Problem ein Mangel an Informatio
 
 \begin{figure}[htbp]
 	\begin{center}
-		\includegraphics[width = 10cm]{Grafiken/2-Aktivierungsprofile.png}
-		\caption{Ein naiver Ansatz für die Beschreibung der Zusammenhänge von der Anzahl der angesprochenen Sinnen im Verhältnis zu der Zuverlässigkeit.}
+		\includegraphics[width = 5cm]{Grafiken/2-Aktivierungsprofile.png}
+		\caption{Beispiel für Bewegungsmuster eines Vibrations Aktuators\cite{5444662}. }
 		\label{2-Aktivierungsprofile.png}
-	\end{center}
-\end{figure}
-
-\begin{figure}[htbp]
-	\begin{center}
-		\includegraphics[width = 10cm]{Grafiken/3-Haptische-Aktuatoren.png}
-		\caption{Ein naiver Ansatz für die Beschreibung der Zusammenhänge von der Anzahl der angesprochenen Sinnen im Verhältnis zu der Zuverlässigkeit.}
-		\label{3-Haptische-Aktuatoren}
 	\end{center}
 \end{figure}
 
@@ -250,41 +301,18 @@ Es muss also zuerst festgestellt werden, ob das Problem ein Mangel an Informatio
 
 \begin{figure}[htbp]
 	\begin{center}
-		\includegraphics[width = 10cm]{Grafiken/7-Tacton-Verwendungsbeispiel.png}
-		\caption{ToDo}
-		\label{7-Tacton-Verwendungsbeispiel}
-	\end{center}
-\end{figure}
-
-\begin{figure}[htbp]
-	\begin{center}
 		\includegraphics[width = 10cm]{Grafiken/14-3x3-Grid.png}
 		\caption{ToDo}
 		\label{14-3x3-Grid}
 	\end{center}
 \end{figure}
 
-\begin{figure}[htbp]
-	\begin{center}
-		\includegraphics[width = 10cm]{Grafiken/14-Mensch-Maschine.png}
-		\caption{ToDo}
-		\label{14-Mensch-Maschine}
-	\end{center}
-\end{figure}
 
 \begin{figure}[htbp]
 	\begin{center}
 		\includegraphics[width = 10cm]{Grafiken/14-Sensory-Saltation.png}
 		\caption{ToDo}
 		\label{14-Sensory-Saltation}
-	\end{center}
-\end{figure}
-
-\begin{figure}[htbp]
-	\begin{center}
-		\includegraphics[width = 10cm]{Grafiken/17-Lehrnbeschleunigung-Versuchsaufbau.png}
-		\caption{ToDo}
-		\label{17-Lehrnbeschleunigung-Versuchsaufbau}
 	\end{center}
 \end{figure}
 
@@ -309,14 +337,6 @@ Es muss also zuerst festgestellt werden, ob das Problem ein Mangel an Informatio
 		\includegraphics[width = 10cm]{Grafiken/28-Attetntion-Reserves.png}
 		\caption{ToDo}
 		\label{28-Attetntion-Reserves}
-	\end{center}
-\end{figure}
-
-\begin{figure}[htbp]
-	\begin{center}
-		\includegraphics[width = 10cm]{Grafiken/28-Recursive-Exploration-of-novel-Stimuli.png}
-		\caption{ToDo}
-		\label{28-Recursive-Exploration-of-novel-Stimuli}
 	\end{center}
 \end{figure}
 

@@ -1,0 +1,14 @@
+In the following I have listed some points of criticism, in order of their importance, as perceived by me:
+
+When I was first reading your paper I occasionally got stuck with the word abbreviations you used. For example: "HCI" is not explained in the text, as far as I can tell. Furthermore "HCI" is never unabbreviated, which makes is a hindrance when it comes to understanding its meaning.
+A quick fix would be to either write: "Human-Computer-Interaction" (HCI for short); or to use a glossary entry.
+
+There are a few unpretty formatting issues. For example is the section "Medicine" cut of from its content. The use of pagebreaks and protected whitespaces should do the trick.
+
+I really like the first figure you used (Word-Cloud). I gives an interesting start into your paper. For the rest of your work: I feel like there is a slight imbalance regarding the use of pictures and graphics. There exists a rather big chunk of raw text followed by many figures.
+I would recommend to add a few more in the beginning.
+
+I think your writing style hits the nail on its head. This in combination of the good structure of the paper and interesting choices of which topics to include, made it rather enjoyable to read.
+
+I hope my hints prove usefull.
+Best regards

@@ -1,0 +1,17 @@
+Im folgenden habe ich meine Kritikpunkte nach der, von mir empfundenen Wichtigkeit, aufgeschrieben:
+
+Mein größtes Problem mit deiner Arbeit ist die Einbindung von Quellen. Gerade an Stellen wie: "Dominguez et. al. kamen dabei zum Ergebnis [...]" fehlt die Quelle zu der konkreten Arbeit. Das solltest du noch kurz nachholen. 
+
+Der Titel einer wissenschaftlichen Arbeit, die auf Deutsch geschrieben ist, würde von einem Titel profitieren, der dies wiederspiegelt. Mein Vorschlag hierfür wäre: "Aktuelle Entwicklungen von Intelligent User Interfaces"
+
+Die Belege in der Gliederung sehen für mich etwas störend aus. Ich würde anstatt die Quellen in die Überschrift einzuarbeiten einen Einleitenden Satz dazu schreiben: "Dieser Abschnitt ist auf Basis von dem Artikel der sich mit Context-specific trust [23] [...] beschäftig."
+Dieses Vorgehen würde natürlich nicht funktionieren, wenn du die Begriffe direkt zitierst. Wenn das der Fall ist würde ich empfehlen dies in den Überschriften kenntlich zu machen, wie etwa durch Anführungszeichen.
+
+Außerdem würde ich mir noch ein paar aussagekräftige Bilder wünsche. Gerade an den Stellen an denen du die Statistiken von den Papern verwendest wäre eine entsprechende Grafik schön.
+
+Mir gefällt deine detaillierte Gliederung. Ich finde nur, dass, gerade im zweiten Kapitel, die Überschriften "Grundlagen" und "Allgemein" nicht notwendigerweise hilfreich sind. Ich habe das Gefühl das liegt daran, dass der Inhalt dieser Überschriften zusammengeführt werden könnte. Z.B. könntest du die gesamte Einführung in "Ubiquitous Computing" in "2.1 Grundlagen" setzen.
+
+Ich finde dir ist die Zusammenfassung gut gelungen. Sie verweißt auf den Inhalt der Arbeit ohne dabei die Gliederung zu wiederholen.
+
+Ich hoffe meine Hinweise waren hilfreich und ich wünsche dir noch viel Erfolg.
+Gruß
